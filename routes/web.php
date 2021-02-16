@@ -16,4 +16,5 @@ Route::get('/', function () {
 })->name('home');
 
 Route::view('/sports-cars/all','sports-cars')->name('sports-cars');
+Route::view('luxury-cars/all','luxury-cars')->name('luxury-cars');
 
